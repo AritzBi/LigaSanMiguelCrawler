@@ -47,7 +47,7 @@ class ActSpiderPipeline(object):
 			remero['experiencia'] = 0
 			remero['buena_mar'] = 0
 			remero['mala_mar'] = 0
-			lesionado = False
+			patron['lesionado'] = 0
 			data['remeros'].append(remero)
 		else :
 			patron = {}
